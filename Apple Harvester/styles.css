@@ -1,0 +1,232 @@
+#apple{
+width: 10px;
+height: 10px;
+position: absolute;
+left:400px;
+top:220px;
+cursor:pointer;
+}
+#tree{
+height:700px;
+width: 700px;
+position: absolute;
+left:-200px;
+top:-200px;
+
+
+}
+#back{
+    background-color:orangered
+   
+}
+#one{
+    border:solid black 5px;
+    position:absolute;
+    width:1200px;
+    height:900px;
+    top:20px;
+    left:10px;
+    background-color: aqua;
+}
+#two{
+   background-color: yellowgreen;
+    width:1200px;
+    height:310px;
+    position:absolute;
+    left:0px;
+    top:590px;
+    
+}
+#three{
+    
+    border:solid black 5px;
+    width:670px;
+    background-color:gray;
+    height:1850px;
+    position:absolute;
+    right:0px;
+    top:20px;
+    text-align:center;
+    color:white;
+    font-size:30px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    
+}
+#apptext{
+color:white;
+position:absolute;
+top:200px;
+left:200px;
+font-size:45px;
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#counter{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color:white;
+    position:absolute;
+    top:200px;
+    left:370px;
+    font-size:45px;
+}
+#myaudio{
+    position:absolute;
+    right:180px;
+    bottom:30px;
+    cursor:pointer;
+}
+#settings{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+}
+#four{
+border: 4px solid black;
+height:300px;
+width:664px;
+position:absolute;
+right:0px;
+bottom:0px;
+background-color:white;
+color:black;
+display:none;
+}
+#headMus{
+    position:absolute;
+    left:75px;
+    bottom:80px;
+font-size:30px;
+}
+#x_1{
+    height:50px;
+    width:60px;
+    position:absolute;
+    left:-10px;
+    top:-10px;
+}
+#x{
+    position:absolute;
+    left:10px;
+    top:10px;
+
+}
+#idle{
+    position:absolute;
+font-size:40px;
+
+left:220px;
+top:100px;
+}
+#friend{
+position:absolute;
+font-size:30px;
+left:10px;
+top:150px;
+color:rgb(219, 147, 255);
+}
+#friendCounter{
+    position:absolute;
+    font-size:30px;
+    left:140px;
+    top:150px;
+    color:rgb(219, 147, 255);
+    }
+ #addFriend{
+position:absolute;
+font-size:20px;
+left:180px;
+top:182px;
+color:rgb(143, 24, 202);
+cursor:pointer;
+    }
+#grandma{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:250px;
+    display:none;
+}
+#farm{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:350px;
+    display:none;
+}
+#region{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:450px;
+    display:none;
+}
+#country{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:550px;
+    display:none;
+}
+#planet{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:650px;
+    display:none;
+}
+#galaxy{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:750px;
+    display:none;
+}
+#universe{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:850px;
+    display:none;
+}
+#clicks{
+    position:absolute;
+    font-size:40px;
+    left:220px;
+    top:950px;
+    
+}
+#helpinghand{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:1050px;
+    
+}
+#octopus{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top: 1150px;
+    display:none;
+}
+#metallic-arm{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:1250px;
+    display:none;
+}
+#deforestation{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:1350px;
+    display:none;
+}
+#high-tech{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:1450px;
+    display:none;
+}
