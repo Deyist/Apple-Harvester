@@ -2,7 +2,7 @@
 width: 10px;
 height: 10px;
 position: absolute;
-left:400px;
+left:300px;
 top:220px;
 cursor:pointer;
 }
@@ -22,16 +22,16 @@ top:-200px;
 #one{
     border:solid black 5px;
     position:absolute;
-    width:1200px;
-    height:900px;
+    width:1000px;
+    height:930px;
     top:20px;
     left:10px;
     background-color: aqua;
 }
 #two{
    background-color: yellowgreen;
-    width:1200px;
-    height:310px;
+    width:1000px;
+    height:340px;
     position:absolute;
     left:0px;
     top:590px;
@@ -40,9 +40,9 @@ top:-200px;
 #three{
     
     border:solid black 5px;
-    width:670px;
+    width:870px;
     background-color:gray;
-    height:1850px;
+    height:950px;
     position:absolute;
     right:0px;
     top:20px;
@@ -110,11 +110,15 @@ font-size:30px;
     top:10px;
 
 }
+
+
+
+/*CLICK FOR YOU */
 #idle{
     position:absolute;
 font-size:40px;
 
-left:220px;
+left:80px;
 top:100px;
 }
 #friend{
@@ -131,10 +135,10 @@ color:rgb(219, 147, 255);
     top:150px;
     color:rgb(219, 147, 255);
     }
- #addFriend{
+ #addFriend1{
 position:absolute;
 font-size:20px;
-left:180px;
+left:280px;
 top:182px;
 color:rgb(143, 24, 202);
 cursor:pointer;
@@ -144,89 +148,129 @@ cursor:pointer;
     font-size:30px;
     left:10px;
     top:250px;
-    display:none;
+    color:rgb(141, 57, 225);
 }
+#grandmaCounter{
+    position:absolute;
+    font-size:30px;
+    left:165px;
+    top:250px;
+    color:rgb(141, 57, 225);
+}
+#addGrandma1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:282px;
+    color:rgb(141, 57, 225);
+    cursor:pointer;
+        }
 #farm{
     position:absolute;
     font-size:30px;
     left:10px;
     top:350px;
-    display:none;
+
 }
 #region{
     position:absolute;
     font-size:30px;
     left:10px;
     top:450px;
-    display:none;
+
 }
 #country{
     position:absolute;
     font-size:30px;
     left:10px;
     top:550px;
-    display:none;
+
 }
 #planet{
     position:absolute;
     font-size:30px;
     left:10px;
     top:650px;
-    display:none;
+
 }
 #galaxy{
     position:absolute;
     font-size:30px;
     left:10px;
     top:750px;
-    display:none;
+
 }
 #universe{
     position:absolute;
     font-size:30px;
     left:10px;
     top:850px;
-    display:none;
+
 }
+
+
+
+
+
+
+/* PER CLICK*/
 #clicks{
     position:absolute;
     font-size:40px;
-    left:220px;
-    top:950px;
+    left:540px;
+    top:100px;
     
 }
 #helpinghand{
     position:absolute;
     font-size:30px;
-    left:10px;
-    top:1050px;
+    left:420px;
+    top:150px;
+    color:rgb(255, 255, 124)
+}
+#helpinghandcounter{
+    position:absolute;
+    font-size:30px;
+    left:630px;
+    top:150px;
+    color:rgb(255, 255, 124)
+}
+#addhelpinghand1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:182px;
+    color:rgb(174, 174, 6);   
+    cursor:pointer;
     
 }
+
+
 #octopus{
     position:absolute;
     font-size:30px;
-    left:10px;
-    top: 1150px;
-    display:none;
+    left:420px;
+    top: 250px;
+
 }
 #metallic-arm{
     position:absolute;
     font-size:30px;
-    left:10px;
-    top:1250px;
-    display:none;
+    left:420px;
+    top:350px;
+
 }
 #deforestation{
     position:absolute;
     font-size:30px;
-    left:10px;
-    top:1350px;
-    display:none;
+    left:420px;
+    top:450px;
+
 }
 #high-tech{
     position:absolute;
     font-size:30px;
-    left:10px;
-    top:1450px;
-    display:none;
+    left:420px;
+    top:550px;
+
 }

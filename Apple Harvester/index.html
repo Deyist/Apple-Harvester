@@ -15,7 +15,7 @@
                 </div>
                     
        <button id = "apple" ><img src="images/tree2.png" id = "tree"></button>      
-<script src="script.js"></script>
+
 <link rel="stylesheet" href="styles.css">
 
 <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
@@ -33,25 +33,46 @@
                 </div>
                     <b><h1>Apple Shop</h1></b>  
                     <h1 id="idle">Idle Clicks</h1>  
+
+
                     <h2 id="friend">Friends:</h2>
                     <h2 id="friendCounter">0</h2>
-                    <button id="addFriend">+1</button>
+                    <button id="addFriend1" onclick = "friend()">+1</button>
 
-                    <h2 id="grandma">Grandma</h2>
+
+                    <h2 id="grandma">Grandmas:</h2>
+                    <h2 id="grandmaCounter">0</h2>
+                    <button id="addGrandma1" onclick = "grandma()">+1</button>
+
+
                     <h2 id="farm">Farm</h2>
+
+
                     <h2 id="region">Region</h2>
+
+
                     <h2 id="country">Country</h2>
+
+
                     <h2 id="planet">Planet</h2>
+
+
                     <h2 id="galaxy">Galaxy</h2>
                     <h2 id="universe">Universe</h2>
                     <h1 id="clicks">Per Click</h1>  
-                    <h2 id="helpinghand">Helping Hand</h2>
+
+
+                    <h2 id="helpinghand">Helping Hand:</h2>
+                    <h2 id="helpinghandcounter">0</h2>
+                    <button id="addhelpinghand1" onclick = "helpingHandf()">+1</button>
+
+
                     <h2 id="octopus">Octopus</h2>
                     <h2 id="metallic-arm">Metallic Arm</h2>
                     <h2 id="deforestation">Deforestation</h2>
                     <h2 id="high-tech">High-tech</h2>
                     <button id="settings" onclick="document.getElementById('four').style.display = 'block'; document.getElementById('settings').style.display = 'none';">Settings</button>
                 </div>  
-                
+                <script src="script.js"></script>
         </body>
 </html>
