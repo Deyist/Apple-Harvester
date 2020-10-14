@@ -35,17 +35,19 @@ apple.addEventListener('click', add)
 
 
 function add(){
-   i = counter.textContent
-   i = parseInt(i)
-   counter.textContent = i+1
-
+   i = parseInt(counter.textContent)
+   n = parseInt(handC.textContent) 
+   counter.textContent = i+ 1 + n
+   
 } 
 
 function friend() {
-   if (counter.textContent >= 50){
+   price = numFriends * 20 + 10 + numhands * 10
+   if (counter.textContent >= price){
       numFriends++
-      counter.textContent -= 50
+      counter.textContent -= price
       friendC.textContent = numFriends 
+      
    }
 }
 
@@ -57,6 +59,7 @@ function friendHelper() {
    c = parseInt(c)
    c += n
    counter.textContent = c
+   
 }
 function grandma() {
    if (counter.textContent >= 500){
@@ -82,9 +85,10 @@ function grandmaHelper() {
 
 
 function helpingHandf() {
-   if (counter.textContent >= 200){
+price = numhands * 200 + 200
+   if (counter.textContent >= price){
       numhands++
-      counter.textContent -= 200
+      counter.textContent -= price
       handC.textContent = numhands 
      
      
