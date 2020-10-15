@@ -1,10 +1,13 @@
 #apple{
-width: 10px;
-height: 10px;
+width: 0px;
+height: 0px;
 position: absolute;
 left:300px;
 top:220px;
 cursor:pointer;
+background-color:green;
+outline: none;   
+display: block;
 }
 #tree{
 height:700px;
@@ -15,7 +18,9 @@ top:-200px;
 z-index:1
 
 }
-
+input:focus{
+    outline: none;   
+}
 
 
 #appshop{
