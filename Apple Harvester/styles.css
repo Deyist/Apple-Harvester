@@ -15,6 +15,12 @@ top:-200px;
 
 
 }
+
+
+
+#appshop{
+    color:rgb(255, 180, 180);
+}
 #back{
     background-color:orangered
    
@@ -117,7 +123,7 @@ font-size:30px;
 #idle{
     position:absolute;
 font-size:40px;
-
+color:rgb(228, 190, 250);
 left:80px;
 top:100px;
 }
@@ -148,21 +154,21 @@ cursor:pointer;
     font-size:30px;
     left:10px;
     top:250px;
-    color:rgb(141, 57, 225);
+    color:rgb(155, 81, 230);
 }
 #grandmaCounter{
     position:absolute;
     font-size:30px;
     left:165px;
     top:250px;
-    color:rgb(141, 57, 225);
+    color:rgb(155, 81, 230);
 }
 #addGrandma1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:282px;
-    color:rgb(141, 57, 225);
+    color:rgb(155, 81, 230);
     cursor:pointer;
         }
 #farm{
@@ -219,7 +225,7 @@ cursor:pointer;
     font-size:40px;
     left:540px;
     top:100px;
-    
+    color:rgb(255, 251, 192)
 }
 #helpinghand{
     position:absolute;
@@ -240,7 +246,7 @@ cursor:pointer;
     font-size:20px;
     left:750px;
     top:182px;
-    color:rgb(174, 174, 6);   
+    color:rgb(223, 223, 19);   
     cursor:pointer;
     
 }
@@ -251,6 +257,24 @@ cursor:pointer;
     font-size:30px;
     left:420px;
     top: 250px;
+    color:rgb(230, 169, 15); 
+}
+#octopusCounter{
+    position:absolute;
+    font-size:30px;
+    left:555px;
+    top:250px;
+    color:rgb(230, 169, 15); 
+
+}
+#addOctopus1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:282px;
+    color:rgb(230, 169, 15);   
+    cursor:pointer;
+    
 
 }
 #metallic-arm{
@@ -258,22 +282,94 @@ cursor:pointer;
     font-size:30px;
     left:420px;
     top:350px;
-
+ color:rgb(255, 123, 0);
 }
+#metallicCounter{
+    position:absolute;
+    font-size:30px;
+    left:625px;
+    top:350px;
+    color:rgb(255, 123, 0);
+    
+    
+}
+#addMetallic1{
+      position:absolute;
+    font-size:20px;
+    left:750px;
+    top:382px;
+    color:rgb(255, 123, 0);
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
 #deforestation{
     position:absolute;
     font-size:30px;
     left:420px;
     top:450px;
-
+    color:rgb(252, 85, 24);
 }
+#forestCounter{
+    position:absolute;
+    font-size:30px;
+    left:640px;
+    top:450px;
+    color:rgb(252, 85, 24);
+    
+    
+}
+#addForest1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:482px;
+    color:rgb(252, 85, 24);
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
 #high-tech{
     position:absolute;
     font-size:30px;
     left:420px;
     top:550px;
-
+    color:rgb(252, 24, 24);
 }
+#techCounter{
+    position:absolute;
+    font-size:30px;
+    left:590px;
+    top:550px;
+    color:rgb(252, 24, 24);
+    
+    
+}
+#addTech1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:582px;
+    color:rgb(252, 24, 24); 
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
 
 
 /*Notes 
