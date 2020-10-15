@@ -149,70 +149,196 @@ top:182px;
 color:rgb(143, 24, 202);
 cursor:pointer;
     }
+
+
+
 #grandma{
     position:absolute;
     font-size:30px;
     left:10px;
     top:250px;
-    color:rgb(155, 81, 230);
+    color:rgb(144, 55, 233);
 }
 #grandmaCounter{
     position:absolute;
     font-size:30px;
     left:165px;
     top:250px;
-    color:rgb(155, 81, 230);
+    color:rgb(144, 55, 233);
 }
 #addGrandma1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:282px;
-    color:rgb(155, 81, 230);
+    color:rgb(144, 55, 233);
     cursor:pointer;
         }
+
+
+
 #farm{
     position:absolute;
     font-size:30px;
     left:10px;
     top:350px;
+    color:rgb(126, 0, 252);
+}
+#farmCounter{
+    position:absolute;
+    font-size:30px;
+    left:105px;
+    top:350px;
+    color:rgb(126, 0, 252);
 
 }
+#addFarm1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:382px;
+    color:rgb(126, 0, 252);
+    cursor:pointer;
+
+}
+
+
+
+
 #region{
     position:absolute;
     font-size:30px;
     left:10px;
     top:450px;
+    color:rgb(127, 243, 247);
+}
+#regionCounter{
+    position:absolute;
+    font-size:30px;
+    left:125px;
+    top:450px;
+    color:rgb(127, 243, 247);
 
 }
+#addRegion1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:482px;
+    color:rgb(127, 243, 247);
+    cursor:pointer;
+
+}
+
+
+
+
 #country{
     position:absolute;
     font-size:30px;
     left:10px;
     top:550px;
+    color:rgb(0, 230, 238);
+}
+#countryCounter{
+    position:absolute;
+    font-size:30px;
+    left:142px;
+    top:550px;
+    color:rgb(0, 230, 238);
+}
+#addCountry1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:582px;
+    color:rgb(0, 230, 238);
+    cursor:pointer;
 
 }
+
+
+
+
 #planet{
     position:absolute;
     font-size:30px;
     left:10px;
     top:650px;
-
+    color:rgb(10, 133, 247);
 }
+#planetCounter{
+    position:absolute;
+    font-size:30px;
+    left:120px;
+    top:650px;
+    color:rgb(0, 132, 255);
+}
+#addPlanet1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:682px;
+    color:rgb(0, 132, 255);
+    cursor:pointer;
+}
+
+
+
+
 #galaxy{
     position:absolute;
     font-size:30px;
     left:10px;
     top:750px;
+    color:rgb(57, 86, 253);
+}
+#galaxyCounter{
+    position:absolute;
+    font-size:30px;
+    left:130px;
+    top:750px;
+    color:rgb(57, 86, 253);
 
 }
+#addGalaxy1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:782px;
+    color:rgb(57, 86, 253);
+    cursor:pointer;
+
+}
+
+
+
+
 #universe{
     position:absolute;
     font-size:30px;
     left:10px;
     top:850px;
+    color:rgb(4, 0, 255)
+}
+#universeCounter{
+    position:absolute;
+    font-size:30px;
+    left:155px;
+    top:850px;
+    color:rgb(4, 0, 255)
 
 }
+#addUniverse1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:882px;
+    color:rgb(4, 0, 255);
+    cursor:pointer;
+
+}
+
 
 
 
