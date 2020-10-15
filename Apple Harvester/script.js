@@ -318,7 +318,7 @@ function universeHelper() {
    n = numUniverses
    c = counter.textContent
    c = parseInt(c)
-   c += n * 1000000
+   c += n * 10000000
    counter.textContent = c
 }
 
