@@ -12,7 +12,7 @@ width: 700px;
 position: absolute;
 left:-200px;
 top:-200px;
-
+z-index:1
 
 }
 
@@ -33,6 +33,12 @@ top:-200px;
     top:20px;
     left:10px;
     background-color: aqua;
+}
+#forApp{
+    
+    width:960px;
+    height:830px;
+   z-index:-1
 }
 #two{
    background-color: yellowgreen;
@@ -75,6 +81,7 @@ font-family:"Comic Sans MS", cursive, sans-serif;
     font-size:45px;
 }
 #myaudio{
+    text-align:center;
     position:absolute;
     right:180px;
     bottom:30px;
@@ -89,7 +96,7 @@ font-family:"Comic Sans MS", cursive, sans-serif;
 #four{
 border: 4px solid black;
 height:300px;
-width:664px;
+width:540px;
 position:absolute;
 right:0px;
 bottom:0px;
@@ -102,6 +109,9 @@ display:none;
     left:75px;
     bottom:80px;
 font-size:30px;
+}
+#headSet{
+  text-align:center;
 }
 #x_1{
     height:50px;
