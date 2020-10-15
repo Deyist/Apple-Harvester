@@ -25,6 +25,20 @@ let friendC = document.getElementById("friendCounter")
 
 let grandmaC = document.getElementById("grandmaCounter")
 
+let farmC = document.getElementById("farmCounter")
+
+let regionC = document.getElementById("regionCounter")
+
+let countryC = document.getElementById("countryCounter")
+
+let planetC = document.getElementById("planetCounter")
+
+let galaxyC = document.getElementById("galaxyCounter")
+
+let universeC = document.getElementById("universeCounter")
+
+
+
 let handC = document.getElementById("helpinghandcounter")
 
 let octopusC = document.getElementById("octopusCounter")
@@ -39,6 +53,20 @@ let techC = document.getElementById("techCounter")
 let numFriends = 0
 
 let numGrandmas = 0
+
+let numFarms = 0
+
+let numRegions = 0
+
+let numCountries = 0
+
+let numPlanets = 0
+
+let numGalaxies = 0
+
+let numUniverses = 0
+
+
 
 let numhands = 0
 
@@ -60,6 +88,18 @@ let intervalID = window.setInterval(friendHelper, 4000)
 
 let intervalID2 = window.setInterval(grandmaHelper, 8000) 
 
+let intervalID3 = window.setInterval(farmHelper, 6000) 
+
+let intervalID4 = window.setInterval(regionHelper, 10000) 
+
+let intervalID5 = window.setInterval(countryHelper, 10000) 
+
+let intervalID6 = window.setInterval(planetHelper, 8000) 
+
+let intervalID7 = window.setInterval(galaxyHelper, 1500) 
+
+let intervalID8 = window.setInterval(universeHelper, 5000) 
+
 
 /*Functions*/
 
@@ -73,7 +113,7 @@ function add(){
    m = parseInt(metallicC.textContent)
    f = parseInt(forestC.textContent)
    h = parseInt(techC.textContent)
-   counter.textContent = i+ 1 + n + o * 8 + m * 32 + f * 150 + h * 1250
+   counter.textContent = i+ 1 + n + o * 8 + m * 32 + f * 150 + h * 1750
    
 } 
 
@@ -115,6 +155,139 @@ function grandmaHelper() {
    c += n * 20
    counter.textContent = c
 }
+
+
+
+function farm() {
+   price = numFarms * 200 + 2000
+   if (counter.textContent >= price){
+      numFarms++
+      counter.textContent -= price
+      farmC.textContent = numFarms
+   }
+}
+
+
+
+function farmHelper() {
+   n = numFarms
+   c = counter.textContent
+   c = parseInt(c)
+   c += n * 100
+   counter.textContent = c
+}
+
+
+
+function region() {
+   price = numRegions * 2500 + 15000
+   if (counter.textContent >= price){
+      numRegions++
+      counter.textContent -= price
+      regionC.textContent = numRegions
+   }
+}
+
+
+
+function regionHelper() {
+   n = numRegions
+   c = counter.textContent
+   c = parseInt(c)
+   c += n * 550
+   counter.textContent = c
+}
+
+
+
+
+function country() {
+   price = numCountries * 30000 + 120000
+   if (counter.textContent >= price){
+      numCountries++
+      counter.textContent -= price
+      countryC.textContent = numCountries
+   }
+}
+
+
+
+function countryHelper() {
+   n = numCountries
+   c = counter.textContent
+   c = parseInt(c)
+   c += n * 3500
+   counter.textContent = c
+}
+
+
+
+function planet() {
+   price = numPlanets * 1200000 + 1200000
+   if (counter.textContent >= price){
+      numPlanets++
+      counter.textContent -= price
+      planetC.textContent = numPlanets
+   }
+}
+
+
+
+function planetHelper() {
+   n = numPlanets
+   c = counter.textContent
+   c = parseInt(c)
+   c += n * 25000
+   counter.textContent = c
+}
+
+
+
+function galaxy() {
+   price = numGalaxies * 10000000 + 15000000
+   if (counter.textContent >= price){
+      numGalaxies++
+      counter.textContent -= price
+      galaxyC.textContent = numGalaxies
+   }
+}
+
+
+
+function galaxyHelper() {
+   n = numGalaxies
+   c = counter.textContent
+   c = parseInt(c)
+   c += n * 120000
+   counter.textContent = c
+}
+
+
+
+function universe() {
+   price = numUniverses * 150000000 + 300000000
+   if (counter.textContent >= price){
+      numUniverses++
+      counter.textContent -= price
+      universeC.textContent = numUniverses
+   }
+}
+
+
+
+function universeHelper() {
+   n = numUniverses
+   c = counter.textContent
+   c = parseInt(c)
+   c += n * 1000000
+   counter.textContent = c
+}
+
+
+
+
+
+
    
 
 
