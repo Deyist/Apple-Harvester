@@ -49,6 +49,9 @@ let forestC = document.getElementById("forestCounter")
 
 let techC = document.getElementById("techCounter")
 
+
+let app = document.getElementById("forApp")
+
 /* Number of */
 let numFriends = 0
 
@@ -116,6 +119,42 @@ function add(){
    counter.textContent = i+ 1 + n + o * 8 + m * 32 + f * 150 + h * 1750
    
 } 
+
+function show_image(src, width, height, alt) {
+   var img = document.createElement("img");
+   img.src = src;
+   img.width = width;
+   img.height = height;
+   img.alt = alt;
+   
+   // set the position
+   img.style.position = 'absolute';
+   
+   
+   img.style.top =  document.getElementById("forApp").clientHeight * Math.random() +"px";
+   
+   img.style.left = document.getElementById("forApp").clientWidth * Math.random() + 'px';
+ 
+   document.body.appendChild(img);
+   
+   setTimeout(function(){ document.body.removeChild(img); }, 1000); 
+ }
+ document.getElementById('apple').addEventListener('click', () =>
+   show_image("images/apple.png", 50, 50, 'apple')
+
+   
+ );
+
+
+
+
+
+
+
+
+
+
+
 
 function friend() {
    price = numFriends * 20 + 10 
