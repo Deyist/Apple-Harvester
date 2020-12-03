@@ -1,20 +1,20 @@
-#cplast{
+#apple{
 width: 0px;
 height: 0px;
 position: absolute;
-left:100px;
-top:120px;
+left:300px;
+top:220px;
 cursor:pointer;
 background-color:green;
 outline: none;   
 display: block;
 }
-#mainplast{
-height:600px;
-width: 800px;
+#tree{
+height:700px;
+width: 700px;
 position: absolute;
-left:0px;
-top:80px;
+left:-200px;
+top:-200px;
 z-index:1
 
 }
@@ -24,7 +24,7 @@ input:focus{
 
 
 #appshop{
-    color:rgb(145, 255, 117);
+    color:rgb(255, 180, 180);
 }
 #back{
     background-color:orangered
@@ -37,7 +37,7 @@ input:focus{
     height:930px;
     top:20px;
     left:10px;
-    background-color: rgb(70, 175, 255);
+    background-color: aqua;
 }
 #forApp{
     
@@ -46,7 +46,7 @@ input:focus{
    z-index:-1
 }
 #two{
-   background-color: rgba(48, 191, 12, 0.72);
+   background-color: yellowgreen;
     width:1000px;
     height:340px;
     position:absolute;
@@ -73,16 +73,8 @@ input:focus{
 color:white;
 position:absolute;
 top:200px;
-left:220px;
+left:200px;
 font-size:45px;
-font-family:"Comic Sans MS", cursive, sans-serif;
-}
-#apptext2{
-color:rgb(4, 0, 255);
-position:absolute;
-top:280px;
-left:5px;
-font-size:25px;
 font-family:"Comic Sans MS", cursive, sans-serif;
 }
 #counter{
@@ -90,16 +82,8 @@ font-family:"Comic Sans MS", cursive, sans-serif;
     color:white;
     position:absolute;
     top:200px;
-    left:400px;
+    left:370px;
     font-size:45px;
-}
-#counter2{
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    color:rgb(0, 8, 255);
-    position:absolute;
-    top:280px;
-    left:180px;
-    font-size:25px;
 }
 #myaudio{
     text-align:center;
@@ -114,13 +98,6 @@ font-family:"Comic Sans MS", cursive, sans-serif;
     bottom:10px;
     cursor:pointer;
 }
-#help{
-    position:absolute;
-    right:80px;
-    bottom:10px;
-    cursor:pointer;
-
-}
 #four{
 border: 4px solid black;
 height:300px;
@@ -132,36 +109,14 @@ background-color:white;
 color:black;
 display:none;
 }
-#five{
-    border: 4px solid black;
-height:780px;
-width:1040px;
-position:absolute;
-right:0px;
-bottom:0px;
-background-color:white;
-color:black;
-display:none;
-z-index: 1;
-text-align: left;
-}
 #headMus{
     position:absolute;
     left:75px;
     bottom:80px;
 font-size:30px;
 }
-#headMus2{
-    position:absolute;
-    left:75px;
-    bottom:80px;
-font-size:25px;
-}
 #headSet{
   text-align:center;
-}
-#headSet2{
-    text-align:center;
 }
 #x_1{
     height:50px;
@@ -170,20 +125,7 @@ font-size:25px;
     left:-10px;
     top:-10px;
 }
-#x_2{
-    height:50px;
-    width:60px;
-    position:absolute;
-    left:-10px;
-    top:-10px; 
-}
 #x{
-    position:absolute;
-    left:10px;
-    top:10px;
-
-}
-#x2{
     position:absolute;
     left:10px;
     top:10px;
@@ -196,81 +138,81 @@ font-size:25px;
 #idle{
     position:absolute;
 font-size:40px;
-color:#f0ffba;
+color:rgb(228, 190, 250);
 left:80px;
 top:100px;
 }
-#thylakoid{
+#friend{
 position:absolute;
 font-size:30px;
 left:10px;
 top:150px;
-color:rgb(221, 255, 0);
+color:rgb(219, 147, 255);
 }
-#thylakoidCounter{
+#friendCounter{
     position:absolute;
     font-size:30px;
-    left:180px;
+    left:140px;
     top:150px;
-    color:rgb(221, 255, 0);
+    color:rgb(219, 147, 255);
     }
- #addthylakoid1{
+ #addFriend1{
 position:absolute;
 font-size:20px;
 left:280px;
 top:182px;
-color:rgb(190, 214, 29);
+color:rgb(143, 24, 202);
 cursor:pointer;
     }
 
 
 
-#stroma{
+#grandma{
     position:absolute;
     font-size:30px;
     left:10px;
     top:250px;
-    color:rgb(177, 238, 10);
+    color:rgb(144, 55, 233);
 }
-#stromaCounter{
+#grandmaCounter{
     position:absolute;
     font-size:30px;
-    left:145px;
+    left:165px;
     top:250px;
-    color:rgb(177, 238, 10);
+    color:rgb(144, 55, 233);
 }
-#addstroma1{
+#addGrandma1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:282px;
-    color:rgb(177, 238, 10);
+    color:rgb(144, 55, 233);
     cursor:pointer;
         }
 
 
 
-#granum{
+#farm{
     position:absolute;
     font-size:30px;
     left:10px;
     top:350px;
-    color:rgb(136, 255, 0);
+    color:rgb(126, 0, 252);
 }
-#granumCounter{
+#farmCounter{
     position:absolute;
     font-size:30px;
-    left:133px;
+    left:105px;
     top:350px;
-    color:rgb(136, 255, 0);
+    color:rgb(126, 0, 252);
 
 }
-#addgranum1{
+#addFarm1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:382px;
-    color:rgb(136, 255, 0);
+    color:rgb(126, 0, 252);
     cursor:pointer;
 
 }
@@ -278,27 +220,27 @@ cursor:pointer;
 
 
 
-#Lumen{
+#region{
     position:absolute;
     font-size:30px;
     left:10px;
     top:450px;
-    color:rgb(50, 252, 0)
+    color:rgb(127, 243, 247);
 }
-#LumenCounter{
+#regionCounter{
     position:absolute;
     font-size:30px;
-    left:115px;
+    left:125px;
     top:450px;
-    color:rgb(50, 252, 0)
+    color:rgb(127, 243, 247);
 
 }
-#addLumen1{
+#addRegion1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:482px;
-    color:rgb(50, 252, 0);
+    color:rgb(127, 243, 247);
     cursor:pointer;
 
 }
@@ -306,26 +248,26 @@ cursor:pointer;
 
 
 
-#mitochondria{
+#country{
     position:absolute;
     font-size:30px;
     left:10px;
     top:550px;
-    color:rgb(51, 255, 0);
+    color:rgb(0, 230, 238);
 }
-#mitochondriaCounter{
+#countryCounter{
     position:absolute;
     font-size:30px;
-    left:212px;
+    left:142px;
     top:550px;
-    color:rgb(51, 255, 0);
+    color:rgb(0, 230, 238);
 }
-#addMitochondria1{
+#addCountry1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:582px;
-    color:rgb(51, 255, 0);
+    color:rgb(0, 230, 238);
     cursor:pointer;
 
 }
@@ -333,53 +275,53 @@ cursor:pointer;
 
 
 
-#flower{
+#planet{
     position:absolute;
     font-size:30px;
     left:10px;
     top:650px;
-    color:rgb(36, 201, 15)
+    color:rgb(10, 133, 247);
 }
-#flowerCounter{
+#planetCounter{
     position:absolute;
     font-size:30px;
     left:120px;
     top:650px;
-    color:rgb(36, 201, 15)
+    color:rgb(0, 132, 255);
 }
-#addflower1{
+#addPlanet1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:682px;
-    color:rgb(36, 201, 15);
+    color:rgb(0, 132, 255);
     cursor:pointer;
 }
 
 
 
 
-#garden{
+#galaxy{
     position:absolute;
     font-size:30px;
     left:10px;
     top:750px;
-    color:rgb(17, 186, 17);
+    color:rgb(57, 86, 253);
 }
-#gardenCounter{
+#galaxyCounter{
     position:absolute;
     font-size:30px;
     left:130px;
     top:750px;
-    color:rgb(17, 186, 17);
+    color:rgb(57, 86, 253);
 
 }
-#addgarden1{
+#addGalaxy1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:782px;
-    color:rgb(17, 186, 17);
+    color:rgb(57, 86, 253);
     cursor:pointer;
 
 }
@@ -387,27 +329,27 @@ cursor:pointer;
 
 
 
-#greenhouse{
+#universe{
     position:absolute;
     font-size:30px;
     left:10px;
     top:850px;
-    color:rgb(88, 213, 72);
+    color:rgb(4, 0, 255)
 }
-#greenhouseCounter{
+#universeCounter{
     position:absolute;
     font-size:30px;
-    left:190px;
+    left:155px;
     top:850px;
-    color:rgb(88, 213, 72);
+    color:rgb(4, 0, 255)
 
 }
-#addgreenhouse1{
+#addUniverse1{
     position:absolute;
     font-size:20px;
     left:280px;
     top:882px;
-    color:rgb(88, 213, 72);
+    color:rgb(4, 0, 255);
     cursor:pointer;
 
 }
@@ -424,80 +366,80 @@ cursor:pointer;
     font-size:40px;
     left:540px;
     top:100px;
-    color:rgb(204, 255, 121)
+    color:rgb(255, 251, 192)
 }
-#H2O{
+#helpinghand{
     position:absolute;
     font-size:30px;
     left:420px;
     top:150px;
-    color:rgb(189, 255, 124);
+    color:rgb(255, 255, 124)
 }
-#H2Ocounter{
+#helpinghandcounter{
     position:absolute;
     font-size:30px;
-    left:500px;
+    left:630px;
     top:150px;
-    color:rgb(189, 255, 124);
+    color:rgb(255, 255, 124)
 }
-#addH2O1{
+#addhelpinghand1{
     position:absolute;
     font-size:20px;
     left:750px;
     top:182px;
-    color:rgb(189, 255, 124);  
+    color:rgb(223, 223, 19);   
     cursor:pointer;
     
 }
 
 
-#Electrons{
+#octopus{
     position:absolute;
     font-size:30px;
     left:420px;
     top: 250px;
-    color:rgb(158, 252, 64);  
+    color:rgb(230, 169, 15); 
 }
-#ElectronsCounter{
+#octopusCounter{
     position:absolute;
     font-size:30px;
-    left:570px;
+    left:555px;
     top:250px;
-    color:rgb(158, 252, 64);   
+    color:rgb(230, 169, 15); 
 
 }
-#addElectrons1{
+#addOctopus1{
     position:absolute;
     font-size:20px;
     left:750px;
     top:282px;
-    color:rgb(158, 252, 64);  
+    color:rgb(230, 169, 15);   
     cursor:pointer;
     
 
 }
-#ATP{
+#metallic-arm{
     position:absolute;
     font-size:30px;
     left:420px;
     top:350px;
-    color:rgb(123, 247, 0);  
+ color:rgb(255, 123, 0);
 }
-#ATPCounter{
+#metallicCounter{
     position:absolute;
     font-size:30px;
-    left:500px;
+    left:625px;
     top:350px;
-    color:rgb(123, 247, 0);  
+    color:rgb(255, 123, 0);
     
     
 }
-#addATP1{
+#addMetallic1{
       position:absolute;
     font-size:20px;
     left:750px;
     top:382px;
-    color:rgb(123, 247, 0);  
+    color:rgb(255, 123, 0);
     cursor:pointer;
     
 }
@@ -507,28 +449,28 @@ cursor:pointer;
 
 
 
-#NADPH{
+#deforestation{
     position:absolute;
     font-size:30px;
     left:420px;
     top:450px;
-    color:rgb(0, 247, 0);  
+    color:rgb(252, 85, 24);
 }
-#NADPHCounter{
+#forestCounter{
     position:absolute;
     font-size:30px;
-    left:545px;
+    left:640px;
     top:450px;
-    color:rgb(0, 247, 0);  
+    color:rgb(252, 85, 24);
     
     
 }
-#addNADPH1{
+#addForest1{
     position:absolute;
     font-size:20px;
     left:750px;
     top:482px;
-    color:rgb(0, 247, 0);  
+    color:rgb(252, 85, 24);
     cursor:pointer;
     
 }
@@ -538,28 +480,28 @@ cursor:pointer;
 
 
 
-#RuBisCO{
+#high-tech{
     position:absolute;
     font-size:30px;
     left:420px;
     top:550px;
-    color:rgb(25, 189, 4);
+    color:rgb(252, 24, 24);
 }
-#RuBisCOCounter{
+#techCounter{
     position:absolute;
     font-size:30px;
-    left:555px;
+    left:590px;
     top:550px;
-    color:rgb(25, 189, 4); 
+    color:rgb(252, 24, 24);
     
     
 }
-#addRuBisCO1{
+#addTech1{
     position:absolute;
     font-size:20px;
     left:750px;
     top:582px;
-    color:rgb(25, 189, 4);  
+    color:rgb(252, 24, 24); 
     cursor:pointer;
     
 }
@@ -567,22 +509,9 @@ cursor:pointer;
 
 
 
-#plastbut{
-    display:none;
-    z-index: 2;
-    
-}
-#apple2{
-    display:none;
-    z-index: 2;
-}
-#shiney{
-position: absolute;
-height: 300px;
-width:300px; 
-left:-20px;
-top:-20px;
-}
+
+
+
 
 /*Notes 
 Use hover and a transition property ( plug in numbers ) check email /*
