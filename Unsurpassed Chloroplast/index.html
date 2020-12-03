@@ -1,0 +1,135 @@
+<html>
+        <head>
+            <title>
+                Unsurpassed Chloroplast
+            </title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        </head>
+        
+        <body id ="back">
+            <div id="one">  
+                
+                <div id="two"> 
+                    <h1 id = "apptext">Glucose:</h1>
+                <h1 id="counter" >0</h1> 
+
+                <h1 id = "apptext2">Total Glucose:</h1>
+                <h1 id="counter2" >0</h1> 
+                </div>
+                    
+       <button id = "cplast" ><img src="images/chloro.png" id = "mainplast"></button>   
+       <button id = "cplast2" ><img src="images/tree3.png" id = "plastbut"></button>      
+       <div id="forApp">  </div>
+<link rel="stylesheet" href="styles.css">
+<img src="images/shine.gif" id = "shiney">
+<iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+            </div>
+            <div id="three">  
+                <div id ="four">
+                    <audio id="myAudio" autoplay loop controls>
+    <source src="audio/chlorotheme.mp3" type="audio/mp3">
+</audio>
+                  <h1 id="headSet">Settings</h1>
+                  <h1 id="headMus">Music(Can change volume and it loops)</h1>
+                  <button id="x" onclick="document.getElementById('four').style.display = 'none'; document.getElementById('settings').style.display = 'block';"><input type="image"
+                    id="x_1" src="images/xwithoutBG.png"></button>
+
+
+
+                 
+                </div>
+                    <div id="five">
+                        <h1 id="headSet2">Help</h1>
+                        <h1 id="headMus2">Instructions: Press the chloroplast in order to get little glucose molecules. As you progressively collect these you can use them as a form of currency. This currency can go on to purchase parts of the chloroplast/components used in the photosynthesis cycle. You can purchase either idle clicks, or per clicks. Idle clicks give you income without you having to press. Per clicks give you more income every click. You start with a default of 1 glucose per click. These increase, when upgrading the perclick. Each idle click has its own time period's that it will give you money for. The further down a purchase is, the more it will cost, and the more it will help you. The total glucose is used to help you keep track of your questions. There are 30 questions in this game related to the process of photosynthesis. Your first is at 50, and each question will follow double that number. Question 1: 50, Question 2: 100, Question 3: 200, Question 4: 400, and so on. Once all 30 are answered you win. You can keep playing in a sort of "freeplay mode" or choose to brag about your accomplishments in this game. Thank you very much for playing. (Settings has original music if you wish to hear it, and it loops)</h1>
+                        <button id="x2" onclick="document.getElementById('five').style.display = 'none'; document.getElementById('help').style.display = 'block';"><input type="image"
+                          id="x_2" src="images/xwithoutBG.png"></button>
+                    </div>
+                    <b><h1 id ="appShop">Organelle Retail n' Parts</h1></b>  
+                    <h1 id="idle">Idle Clicks</h1>  
+
+
+                    <h2 id="Thylakoid">Thylakoids:</h2>
+                    <h2 id="ThylakoidCounter">0</h2>
+                    <button id="addThylakoid1" onclick = "Thylakoid()">+1</button>
+
+
+                    <h2 id="Stroma">Stromas:</h2>
+                    <h2 id="StromaCounter">0</h2>
+                    <button id="addStroma1" onclick = "Stroma()">+1</button>
+
+
+                    <h2 id="granum">Granum:</h2>
+                    <h2 id="granumCounter">0</h2>
+                    <button id="addgranum1" onclick = "granum()">+1</button>
+
+
+                    <h2 id="Lumen">Lumen:</h2>
+                    <h2 id="LumenCounter">0</h2>
+                    <button id="addLumen1" onclick = "Lumen()">+1</button>
+
+
+                    <h2 id="mitochondria">Mitochondria:</h2>
+                    <h2 id="mitochondriaCounter">0</h2>
+                    <button id="addmitochondria1" onclick = "mitochondria()">+1</button>
+
+
+                    <h2 id="flower">Flower:</h2>
+                    <h2 id="flowerCounter">0</h2>
+                    <button id="addflower1" onclick = "flower()">+1</button>
+
+
+                    <h2 id="garden">Garden:</h2>
+                    <h2 id="gardenCounter">0</h2>
+                    <button id="addgarden1" onclick = "garden()">+1</button>
+
+
+                    <h2 id="greenhouse">Greenhouse:</h2>
+                    <h2 id="greenhouseCounter">0</h2>
+                    <button id="addgreenhouse1" onclick = "greenhouse()">+1</button>
+
+
+
+
+
+                    <h1 id="clicks">Per Click</h1>  
+
+
+                    <h2 id="H2O">H20:</h2>
+                    <h2 id="H2Ocounter">0</h2>
+                    <button id="addH2O1" onclick = "H2Of()">+1</button>
+
+
+                    <h2 id="Electrons">Electrons:</h2>
+                    <h2 id="ElectronsCounter">0</h2>
+                    <button id="addElectrons1" onclick = "Electrons()">+1</button>
+
+
+
+                    <h2 id="ATP">ATP:</h2>
+                    <h2 id="ATPCounter">0</h2>
+                    <button id="addATP1" onclick = "ATPfunc()">+1</button>
+
+
+
+
+                    <h2 id="NADPH">NADPH:</h2>
+                    <h2 id="NADPHCounter">0</h2>
+                    <button id="addNADPH1" onclick = "NADPHfunc()">+1</button>
+
+
+
+                    <h2 id="RuBisCO">RuBisCO:</h2>
+                    <h2 id="RuBisCOCounter">0</h2>
+                    <button id="addRuBisCO1" onclick = "RuBisCOfunc()">+1</button>
+
+
+
+                    <button id="settings" onclick="document.getElementById('four').style.display = 'block'; document.getElementById('settings').style.display = 'none';">Settings</button>
+                    <button id="help" onclick="document.getElementById('five').style.display = 'block'; document.getElementById('help').style.display = 'none';">Help</button>
+                </div>  
+                
+                <script src="script.js"></script>
+        </body>
+</html>
